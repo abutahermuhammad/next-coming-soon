@@ -6,22 +6,22 @@ type Props = {
   title?: string;
 };
 
-const Layout = ({ children, title = "This is the default title" }: Props) => (
-  <div className="relative min-h-screen flex flex-col justify-center items-center bg-hero bg-cover">
+const Layout = ({ children, title = "Coming soon" }: Props) => (
+  <div className="relative min-h-screen flex flex-col justify-center items-center bg-hero bg-cover h-screen w-screen">
     <Head>
-      <title>{title} | Themeptation</title>
+      <title>{title} | Dot9</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
         name="description"
-        content="Slioth - is a One Page Saas Lading Page build with Tailwind CSS and NextJs created by themeptation"
+        content="Dot9 - is software development agency based on Bangladesh. Delivering tailored solution to customers from european countries including UK, USA, Germany, UAE, etc in a budget friendly pack while maintaining maximum outcome. We are also working on some cutting edge health tech platform backed by humanitarian organizations."
       />
-      <meta property="og:title" content={`${title} | Themeptation`} />
+      <meta property="og:title" content={`${title} | Dot9`} />
       <meta
         property="og:description"
-        content="Slioth - is a One Page Saas Lading Page build with Tailwind CSS and NextJs created by themeptation"
+        content="Dot9 - is software development agency based on Bangladesh. Delivering tailored solution to customers from european countries including UK, USA, Germany, UAE, etc in a budget friendly pack while maintaining maximum outcome. We are also working on some cutting edge health tech platform backed by humanitarian organizations."
       />
-      <meta property="og:url" content="https://slioth.themepttation.net/" />
+      <meta property="og:url" content="https://dot9.dev/" />
       <meta property="og:type" content="website" />
     </Head>
     {children}
